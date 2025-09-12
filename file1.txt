@@ -1,1 +1,2 @@
 Initial content in file1
+New line added to file1
