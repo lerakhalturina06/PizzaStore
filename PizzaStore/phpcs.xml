@@ -1,0 +1,14 @@
+<?xml version="1.0"?>
+<ruleset name="PizzaStore">
+    <description>PHP CodeSniffer configuration for PizzaStore project</description>
+
+    <file>src</file>
+    <file>tests</file>
+
+    <arg name="basepath" value="."/>
+    <arg name="colors"/>
+    <arg name="parallel" value="8"/>
+    <arg value="sp"/>
+
+    <rule ref="PSR12"/>
+</ruleset>
