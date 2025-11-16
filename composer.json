@@ -1,5 +1,5 @@
 {
-    "name": "your-github-username/pizza-store-lib",
+    "name": "lerakhalturina06/pizza-store-lib",
     "description": "A core library for pizza store management",
     "type": "library",
     "require": {
@@ -13,17 +13,6 @@
         "psr-4": {
             "PizzaStoreLib\\": "src/"
         }
-    },
-    "autoload-dev": {
-        "psr-4": {
-            "PizzaStoreLib\\Tests\\": "tests/"
-        }
-    },
-    "scripts": {
-        "analyse": [
-            "vendor/bin/phpstan analyse src --memory-limit=512M",
-            "vendor/bin/phpcs --standard=PSR12 src/"
-        ]
     },
     "minimum-stability": "stable",
     "prefer-stable": true
