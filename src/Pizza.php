@@ -8,7 +8,7 @@ abstract class Pizza
 {
     protected string $name;
 
-    protected string $sauce;
+ 
 
     /** @var array<string> */
     protected array $toppings = [];
